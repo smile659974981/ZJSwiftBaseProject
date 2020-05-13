@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-ZJSwiftBaseProject/Pods-ZJSwiftBaseProject-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Hue/Hue.framework
 ${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework
+${BUILT_PRODUCTS_DIR}/SHFullscreenPopGestureSwift/SHFullscreenPopGestureSwift.framework

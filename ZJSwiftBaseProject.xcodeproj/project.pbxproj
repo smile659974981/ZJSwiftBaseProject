@@ -3,16 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E81F4523246A778A009B9EDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81F4522246A778A009B9EDD /* AppDelegate.swift */; };
-		E81F4525246A778A009B9EDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81F4524246A778A009B9EDD /* SceneDelegate.swift */; };
-		E81F4527246A778A009B9EDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81F4526246A778A009B9EDD /* ViewController.swift */; };
-		E81F452A246A778A009B9EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81F4528246A778A009B9EDD /* Main.storyboard */; };
-		E81F452C246A778C009B9EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E81F452B246A778C009B9EDD /* Assets.xcassets */; };
-		E81F452F246A778C009B9EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81F452D246A778C009B9EDD /* LaunchScreen.storyboard */; };
+		E838F2AB246A7DC20048B0CB /* ZJBaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E838F2AA246A7DC20048B0CB /* ZJBaseTabBarController.swift */; };
+		E838F2BA246A7F620048B0CB /* ZJBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E838F2B9246A7F620048B0CB /* ZJBaseViewController.swift */; };
+		E8D36F67246B88AA008E9FED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D36F66246B88AA008E9FED /* HomeViewController.swift */; };
+		E8D36F69246B88D1008E9FED /* CourseRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D36F68246B88D1008E9FED /* CourseRecordViewController.swift */; };
+		E8D36F6B246B88D9008E9FED /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D36F6A246B88D9008E9FED /* MineViewController.swift */; };
+		E8D36F6D246B8D31008E9FED /* ZJBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D36F6C246B8D31008E9FED /* ZJBaseNavigationController.swift */; };
+		E8D36F76246BD353008E9FED /* WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D36F73246BD353008E9FED /* WRNavigationBar.swift */; };
+		E8D36F77246BD353008E9FED /* WRCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D36F74246BD353008E9FED /* WRCustomNavigationBar.swift */; };
+		E8D36F81246BEB15008E9FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D36F79246BEB15008E9FED /* Assets.xcassets */; };
+		E8D36F82246BEB15008E9FED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D36F7A246BEB15008E9FED /* LaunchScreen.storyboard */; };
+		E8D36F83246BEB15008E9FED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D36F7C246BEB15008E9FED /* Main.storyboard */; };
+		E8D36F84246BEB15008E9FED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D36F7E246BEB15008E9FED /* AppDelegate.swift */; };
+		E8D36F86246BEB15008E9FED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D36F80246BEB15008E9FED /* SceneDelegate.swift */; };
+		E8D36F8A246BEC02008E9FED /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8D36F7F246BEB15008E9FED /* Info.plist */; };
 		F97473BF16B5F6AC38B63884 /* Pods_ZJSwiftBaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF108A08DCAB36918F7B342 /* Pods_ZJSwiftBaseProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,13 +29,20 @@
 		DF4F02FDB8B717A57AA6036C /* Pods-ZJSwiftBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJSwiftBaseProject.debug.xcconfig"; path = "Target Support Files/Pods-ZJSwiftBaseProject/Pods-ZJSwiftBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		DFF108A08DCAB36918F7B342 /* Pods_ZJSwiftBaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJSwiftBaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E81F451F246A778A009B9EDD /* ZJSwiftBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJSwiftBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E81F4522246A778A009B9EDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E81F4524246A778A009B9EDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E81F4526246A778A009B9EDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E81F4529246A778A009B9EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E81F452B246A778C009B9EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E81F452E246A778C009B9EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E81F4530246A778C009B9EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E838F2AA246A7DC20048B0CB /* ZJBaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJBaseTabBarController.swift; sourceTree = "<group>"; };
+		E838F2B9246A7F620048B0CB /* ZJBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJBaseViewController.swift; sourceTree = "<group>"; };
+		E8D36F66246B88AA008E9FED /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E8D36F68246B88D1008E9FED /* CourseRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRecordViewController.swift; sourceTree = "<group>"; };
+		E8D36F6A246B88D9008E9FED /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		E8D36F6C246B8D31008E9FED /* ZJBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJBaseNavigationController.swift; sourceTree = "<group>"; };
+		E8D36F73246BD353008E9FED /* WRNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRNavigationBar.swift; sourceTree = "<group>"; };
+		E8D36F74246BD353008E9FED /* WRCustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCustomNavigationBar.swift; sourceTree = "<group>"; };
+		E8D36F79246BEB15008E9FED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8D36F7B246BEB15008E9FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8D36F7D246BEB15008E9FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8D36F7E246BEB15008E9FED /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8D36F7F246BEB15008E9FED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D36F80246BEB15008E9FED /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +71,6 @@
 				DF4F02FDB8B717A57AA6036C /* Pods-ZJSwiftBaseProject.debug.xcconfig */,
 				1E4191D4F8ACA5F87B2B336C /* Pods-ZJSwiftBaseProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,15 +95,182 @@
 		E81F4521246A778A009B9EDD /* ZJSwiftBaseProject */ = {
 			isa = PBXGroup;
 			children = (
-				E81F4522246A778A009B9EDD /* AppDelegate.swift */,
-				E81F4524246A778A009B9EDD /* SceneDelegate.swift */,
-				E81F4526246A778A009B9EDD /* ViewController.swift */,
-				E81F4528246A778A009B9EDD /* Main.storyboard */,
-				E81F452B246A778C009B9EDD /* Assets.xcassets */,
-				E81F452D246A778C009B9EDD /* LaunchScreen.storyboard */,
-				E81F4530246A778C009B9EDD /* Info.plist */,
+				E838F2AC246A7F3A0048B0CB /* Project */,
+				E838F2A9246A7D900048B0CB /* Base */,
+				E8D36F6F246BD353008E9FED /* Config */,
+				E8D36F78246BEB15008E9FED /* SystemResource */,
 			);
 			path = ZJSwiftBaseProject;
+			sourceTree = "<group>";
+		};
+		E838F2A9246A7D900048B0CB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E838F2AA246A7DC20048B0CB /* ZJBaseTabBarController.swift */,
+				E838F2B9246A7F620048B0CB /* ZJBaseViewController.swift */,
+				E8D36F6C246B8D31008E9FED /* ZJBaseNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E838F2AC246A7F3A0048B0CB /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				E838F2B1246A7F3A0048B0CB /* 首页 */,
+				E838F2B5246A7F3A0048B0CB /* 病程记录 */,
+				E838F2AD246A7F3A0048B0CB /* 我的 */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		E838F2AD246A7F3A0048B0CB /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				E838F2AE246A7F3A0048B0CB /* 首页 */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		E838F2AE246A7F3A0048B0CB /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				E838F2AF246A7F3A0048B0CB /* controller */,
+				E838F2B0246A7F3A0048B0CB /* view */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		E838F2AF246A7F3A0048B0CB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8D36F6A246B88D9008E9FED /* MineViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		E838F2B0246A7F3A0048B0CB /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E838F2B1246A7F3A0048B0CB /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				E838F2B2246A7F3A0048B0CB /* 首页 */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		E838F2B2246A7F3A0048B0CB /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				E838F2B3246A7F3A0048B0CB /* controller */,
+				E838F2B4246A7F3A0048B0CB /* view */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		E838F2B3246A7F3A0048B0CB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8D36F66246B88AA008E9FED /* HomeViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		E838F2B4246A7F3A0048B0CB /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E838F2B5246A7F3A0048B0CB /* 病程记录 */ = {
+			isa = PBXGroup;
+			children = (
+				E838F2B6246A7F3A0048B0CB /* 首页 */,
+			);
+			path = "病程记录";
+			sourceTree = "<group>";
+		};
+		E838F2B6246A7F3A0048B0CB /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				E838F2B7246A7F3A0048B0CB /* controller */,
+				E838F2B8246A7F3A0048B0CB /* view */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		E838F2B7246A7F3A0048B0CB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8D36F68246B88D1008E9FED /* CourseRecordViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		E838F2B8246A7F3A0048B0CB /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E8D36F6F246BD353008E9FED /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E8D36F70246BD353008E9FED /* Extension */,
+				E8D36F71246BD353008E9FED /* Class */,
+				E8D36F75246BD353008E9FED /* Tool */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		E8D36F70246BD353008E9FED /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E8D36F71246BD353008E9FED /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E8D36F72246BD353008E9FED /* WRNavigationBar */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		E8D36F72246BD353008E9FED /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				E8D36F73246BD353008E9FED /* WRNavigationBar.swift */,
+				E8D36F74246BD353008E9FED /* WRCustomNavigationBar.swift */,
+			);
+			path = WRNavigationBar;
+			sourceTree = "<group>";
+		};
+		E8D36F75246BD353008E9FED /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		E8D36F78246BEB15008E9FED /* SystemResource */ = {
+			isa = PBXGroup;
+			children = (
+				E8D36F79246BEB15008E9FED /* Assets.xcassets */,
+				E8D36F7A246BEB15008E9FED /* LaunchScreen.storyboard */,
+				E8D36F7C246BEB15008E9FED /* Main.storyboard */,
+				E8D36F7E246BEB15008E9FED /* AppDelegate.swift */,
+				E8D36F7F246BEB15008E9FED /* Info.plist */,
+				E8D36F80246BEB15008E9FED /* SceneDelegate.swift */,
+			);
+			path = SystemResource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +333,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E81F452F246A778C009B9EDD /* LaunchScreen.storyboard in Resources */,
-				E81F452C246A778C009B9EDD /* Assets.xcassets in Resources */,
-				E81F452A246A778A009B9EDD /* Main.storyboard in Resources */,
+				E8D36F8A246BEC02008E9FED /* Info.plist in Resources */,
+				E8D36F83246BEB15008E9FED /* Main.storyboard in Resources */,
+				E8D36F81246BEB15008E9FED /* Assets.xcassets in Resources */,
+				E8D36F82246BEB15008E9FED /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,29 +389,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E81F4527246A778A009B9EDD /* ViewController.swift in Sources */,
-				E81F4523246A778A009B9EDD /* AppDelegate.swift in Sources */,
-				E81F4525246A778A009B9EDD /* SceneDelegate.swift in Sources */,
+				E8D36F77246BD353008E9FED /* WRCustomNavigationBar.swift in Sources */,
+				E8D36F76246BD353008E9FED /* WRNavigationBar.swift in Sources */,
+				E838F2BA246A7F620048B0CB /* ZJBaseViewController.swift in Sources */,
+				E8D36F84246BEB15008E9FED /* AppDelegate.swift in Sources */,
+				E8D36F6B246B88D9008E9FED /* MineViewController.swift in Sources */,
+				E8D36F86246BEB15008E9FED /* SceneDelegate.swift in Sources */,
+				E838F2AB246A7DC20048B0CB /* ZJBaseTabBarController.swift in Sources */,
+				E8D36F69246B88D1008E9FED /* CourseRecordViewController.swift in Sources */,
+				E8D36F6D246B8D31008E9FED /* ZJBaseNavigationController.swift in Sources */,
+				E8D36F67246B88AA008E9FED /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E81F4528246A778A009B9EDD /* Main.storyboard */ = {
+		E8D36F7A246BEB15008E9FED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E81F4529246A778A009B9EDD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E81F452D246A778C009B9EDD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E81F452E246A778C009B9EDD /* Base */,
+				E8D36F7B246BEB15008E9FED /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E8D36F7C246BEB15008E9FED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8D36F7D246BEB15008E9FED /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -354,16 +543,20 @@
 			baseConfigurationReference = DF4F02FDB8B717A57AA6036C /* Pods-ZJSwiftBaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CJW3UA3TZT;
-				INFOPLIST_FILE = ZJSwiftBaseProject/Info.plist;
+				INFOPLIST_FILE = ZJSwiftBaseProject/SystemResource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = ZJSwiftBaseProject.ZJSwiftBaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -374,16 +567,20 @@
 			baseConfigurationReference = 1E4191D4F8ACA5F87B2B336C /* Pods-ZJSwiftBaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CJW3UA3TZT;
-				INFOPLIST_FILE = ZJSwiftBaseProject/Info.plist;
+				INFOPLIST_FILE = ZJSwiftBaseProject/SystemResource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = ZJSwiftBaseProject.ZJSwiftBaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

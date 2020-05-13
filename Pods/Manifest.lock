@@ -1,16 +1,24 @@
 PODS:
+  - Hue (5.0.0)
   - RAMAnimatedTabBarController (5.1.0)
+  - SHFullscreenPopGestureSwift (1.2.1)
 
 DEPENDENCIES:
+  - Hue
   - RAMAnimatedTabBarController
+  - SHFullscreenPopGestureSwift
 
 SPEC REPOS:
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - Hue
     - RAMAnimatedTabBarController
+    - SHFullscreenPopGestureSwift
 
 SPEC CHECKSUMS:
+  Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
   RAMAnimatedTabBarController: b5c821298071fded801532216ad8a24394f89859
+  SHFullscreenPopGestureSwift: 96c20749695c8fbf14a29feb5ece469d7a909a41
 
-PODFILE CHECKSUM: 9378766d5b718aea6b6fc3385cd29040cc0ba709
+PODFILE CHECKSUM: f70255e5c769dcc65b7cef3a115de85111c38575
 
 COCOAPODS: 1.9.1
